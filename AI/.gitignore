@@ -1,0 +1,55 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment/local config
+.env
+.env.*
+
+# Test, lint, type-check, coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build/package outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE/editor and OS files
+.idea/
+.vscode/
+.DS_Store
+._*
+**/._*
+
+# Runtime data and generated indexes
+storage/*.faiss
+storage/*.index
+storage/*.pkl
+storage/*.npy
+storage/*.npz
+uploads/
+tmp/
+
+# Local ML model artifacts
+*.onnx
+*.pt
+*.pth
+AGENTS.md
+.codex
+storage
+certs
